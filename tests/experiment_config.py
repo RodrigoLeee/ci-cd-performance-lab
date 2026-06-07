@@ -14,9 +14,9 @@
 # Experimento 10:   EXTRA_TEST_MULTIPLIER=5
 # Experimentos 11-12: mudança no YAML (não aqui)
 
-ENABLE_SLOW_TESTS: bool = True
-SLOW_SLEEP_SECONDS: int = 10
+ENABLE_SLOW_TESTS: bool = False
+SLOW_SLEEP_SECONDS: int = 0
 
-ENABLE_FAILING_TEST: bool = False
+ENABLE_FAILING_TEST: bool = True
 
 EXTRA_TEST_MULTIPLIER: int = 1  # multiplica a quantidade de casos paramétricos
