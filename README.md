@@ -162,3 +162,4 @@ O job `build-artifact` aguarda ambos com `needs: [lint, test]`.
 | matplotlib      | 3.9.0   | geração dos gráficos             |
 | python-dotenv   | 1.0.1   | leitura de .env para o token     |
 # baseline run 2
+# baseline run 3
