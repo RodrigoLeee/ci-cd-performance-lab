@@ -163,3 +163,4 @@ O job `build-artifact` aguarda ambos com `needs: [lint, test]`.
 | python-dotenv   | 1.0.1   | leitura de .env para o token     |
 # baseline run 2
 # baseline run 3
+# triggering parallel workflow
