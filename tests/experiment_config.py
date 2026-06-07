@@ -19,4 +19,4 @@ SLOW_SLEEP_SECONDS: int = 0
 
 ENABLE_FAILING_TEST: bool = False
 
-EXTRA_TEST_MULTIPLIER: int = 1  # multiplica a quantidade de casos paramétricos
+EXTRA_TEST_MULTIPLIER: int = 5  # multiplica a quantidade de casos paramétricos
