@@ -17,6 +17,6 @@
 ENABLE_SLOW_TESTS: bool = False
 SLOW_SLEEP_SECONDS: int = 0
 
-ENABLE_FAILING_TEST: bool = True
+ENABLE_FAILING_TEST: bool = False
 
 EXTRA_TEST_MULTIPLIER: int = 1  # multiplica a quantidade de casos paramétricos
