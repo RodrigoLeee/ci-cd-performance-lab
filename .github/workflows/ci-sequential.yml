@@ -17,14 +17,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Cache pip -- DISABLED for experiment 8
-      # - name: Cache pip
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dev dependencies
         run: pip install -r requirements-dev.txt
@@ -43,14 +42,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Cache pip -- DISABLED for experiment 8
-      # - name: Cache pip
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: pip install -r requirements.txt -r requirements-dev.txt
@@ -81,14 +79,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Cache pip -- DISABLED for experiment 8
-      # - name: Cache pip
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install runtime dependencies
         run: pip install -r requirements.txt
