@@ -15,7 +15,7 @@
 # Experimentos 11-12: mudança no YAML (não aqui)
 
 ENABLE_SLOW_TESTS: bool = True
-SLOW_SLEEP_SECONDS: int = 5
+SLOW_SLEEP_SECONDS: int = 10
 
 ENABLE_FAILING_TEST: bool = False
 
