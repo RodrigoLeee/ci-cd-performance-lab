@@ -1,0 +1,1 @@
+# No runtime dependencies — project uses only Python stdlib (math, statistics)
