@@ -236,13 +236,13 @@ def collect() -> None:
         writer = csv.DictWriter(f, fieldnames=metrics_cols)
         writer.writeheader()
         writer.writerows(metrics_rows)
-    print(f"\nSaved {len(metrics_rows)} rows → {metrics_path}")
+    print(f"\nSaved {len(metrics_rows)} rows -> {metrics_path}")
 
     # Save metrics.json
     json_path = os.path.join(DATA_DIR, "metrics.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(metrics_rows, f, indent=2, ensure_ascii=False)
-    print(f"Saved JSON → {json_path}")
+    print(f"Saved JSON -> {json_path}")
 
     # Save steps_detail.csv
     steps_path = os.path.join(DATA_DIR, "steps_detail.csv")
@@ -251,7 +251,7 @@ def collect() -> None:
         writer = csv.DictWriter(f, fieldnames=steps_cols)
         writer.writeheader()
         writer.writerows(steps_rows)
-    print(f"Saved {len(steps_rows)} step rows → {steps_path}")
+    print(f"Saved {len(steps_rows)} step rows -> {steps_path}")
 
     # Summary
     total_runs = len({r["run_id"] for r in metrics_rows})

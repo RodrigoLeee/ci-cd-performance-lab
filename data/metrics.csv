@@ -1,0 +1,73 @@
+run_id,commit_sha,commit_message,workflow_name,status,workflow_duration,job_name,job_duration,test_count,test_failures,test_errors,test_duration_total,timestamp
+27102077972,934da934,experiment: parallel jobs - compare total time with run 11,CI Sequential,success,67.0,lint,20.0,104,0,0,0.169,2026-06-07T19:11:17Z
+27102077972,934da934,experiment: parallel jobs - compare total time with run 11,CI Sequential,success,67.0,test,24.0,104,0,0,0.169,2026-06-07T19:11:17Z
+27102077972,934da934,experiment: parallel jobs - compare total time with run 11,CI Sequential,success,67.0,build-artifact,11.0,104,0,0,0.169,2026-06-07T19:11:17Z
+27102077969,934da934,experiment: parallel jobs - compare total time with run 11,CI Parallel,success,43.0,lint,21.0,104,0,0,0.166,2026-06-07T19:11:17Z
+27102077969,934da934,experiment: parallel jobs - compare total time with run 11,CI Parallel,success,43.0,test,24.0,104,0,0,0.166,2026-06-07T19:11:17Z
+27102077969,934da934,experiment: parallel jobs - compare total time with run 11,CI Parallel,success,43.0,build-artifact,11.0,104,0,0,0.166,2026-06-07T19:11:17Z
+27102049980,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Parallel,success,42.0,lint,21.0,104,0,0,0.178,2026-06-07T19:10:07Z
+27102049980,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Parallel,success,42.0,test,23.0,104,0,0,0.178,2026-06-07T19:10:07Z
+27102049980,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Parallel,success,42.0,build-artifact,11.0,104,0,0,0.178,2026-06-07T19:10:07Z
+27102049977,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Sequential,success,59.0,lint,19.0,104,0,0,0.152,2026-06-07T19:10:07Z
+27102049977,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Sequential,success,59.0,test,22.0,104,0,0,0.152,2026-06-07T19:10:07Z
+27102049977,87a44449,experiment: sequential jobs baseline for parallel comparison,CI Sequential,success,59.0,build-artifact,8.0,104,0,0,0.152,2026-06-07T19:10:07Z
+27102021594,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Parallel,success,35.0,lint,18.0,184,0,0,0.259,2026-06-07T19:08:54Z
+27102021594,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Parallel,success,35.0,test,22.0,184,0,0,0.259,2026-06-07T19:08:54Z
+27102021594,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Parallel,success,35.0,build-artifact,7.0,184,0,0,0.259,2026-06-07T19:08:54Z
+27102021587,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Sequential,success,62.0,lint,17.0,184,0,0,0.248,2026-06-07T19:08:54Z
+27102021587,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Sequential,success,62.0,test,22.0,184,0,0,0.248,2026-06-07T19:08:54Z
+27102021587,b71a7291,experiment: increase test count 5x via parametrized multiplier,CI Sequential,success,62.0,build-artifact,10.0,184,0,0,0.248,2026-06-07T19:08:54Z
+27101987231,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Sequential,success,68.0,lint,26.0,104,0,0,0.176,2026-06-07T19:07:25Z
+27101987231,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Sequential,success,68.0,test,19.0,104,0,0,0.176,2026-06-07T19:07:25Z
+27101987231,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Sequential,success,68.0,build-artifact,12.0,104,0,0,0.176,2026-06-07T19:07:25Z
+27101987222,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Parallel,success,35.0,test,22.0,104,0,0,0.162,2026-06-07T19:07:25Z
+27101987222,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Parallel,success,35.0,lint,21.0,104,0,0,0.162,2026-06-07T19:07:25Z
+27101987222,bc476b10,experiment: re-enable pip cache - compare with run 8,CI Parallel,success,35.0,build-artifact,7.0,104,0,0,0.162,2026-06-07T19:07:25Z
+27101955674,cacadf83,experiment: disable pip cache to measure installation time,CI Sequential,success,53.0,lint,18.0,104,0,0,0.178,2026-06-07T19:06:01Z
+27101955674,cacadf83,experiment: disable pip cache to measure installation time,CI Sequential,success,53.0,test,19.0,104,0,0,0.178,2026-06-07T19:06:01Z
+27101955674,cacadf83,experiment: disable pip cache to measure installation time,CI Sequential,success,53.0,build-artifact,7.0,104,0,0,0.178,2026-06-07T19:06:01Z
+27101955666,cacadf83,experiment: disable pip cache to measure installation time,CI Parallel,success,40.0,lint,22.0,104,0,0,0.165,2026-06-07T19:06:01Z
+27101955666,cacadf83,experiment: disable pip cache to measure installation time,CI Parallel,success,40.0,test,22.0,104,0,0,0.165,2026-06-07T19:06:01Z
+27101955666,cacadf83,experiment: disable pip cache to measure installation time,CI Parallel,success,40.0,build-artifact,11.0,104,0,0,0.165,2026-06-07T19:06:01Z
+27101915260,a08454fc,fix: restore passing tests after failure experiment,CI Parallel,success,38.0,lint,19.0,104,0,0,0.16,2026-06-07T19:04:20Z
+27101915260,a08454fc,fix: restore passing tests after failure experiment,CI Parallel,success,38.0,test,19.0,104,0,0,0.16,2026-06-07T19:04:20Z
+27101915260,a08454fc,fix: restore passing tests after failure experiment,CI Parallel,success,38.0,build-artifact,11.0,104,0,0,0.16,2026-06-07T19:04:20Z
+27101915259,a08454fc,fix: restore passing tests after failure experiment,CI Sequential,success,70.0,lint,22.0,104,0,0,0.208,2026-06-07T19:04:20Z
+27101915259,a08454fc,fix: restore passing tests after failure experiment,CI Sequential,success,70.0,test,26.0,104,0,0,0.208,2026-06-07T19:04:20Z
+27101915259,a08454fc,fix: restore passing tests after failure experiment,CI Sequential,success,70.0,build-artifact,12.0,104,0,0,0.208,2026-06-07T19:04:20Z
+27101892348,2cf6515b,experiment: introduce intentional test failure,CI Parallel,failure,24.0,test,20.0,104,1,0,0.188,2026-06-07T19:03:22Z
+27101892348,2cf6515b,experiment: introduce intentional test failure,CI Parallel,failure,24.0,lint,20.0,104,1,0,0.188,2026-06-07T19:03:22Z
+27101892348,2cf6515b,experiment: introduce intentional test failure,CI Parallel,failure,24.0,build-artifact,0.0,104,1,0,0.188,2026-06-07T19:03:22Z
+27101892323,2cf6515b,experiment: introduce intentional test failure,CI Sequential,failure,43.0,lint,18.0,104,1,0,0.161,2026-06-07T19:03:22Z
+27101892323,2cf6515b,experiment: introduce intentional test failure,CI Sequential,failure,43.0,test,18.0,104,1,0,0.161,2026-06-07T19:03:22Z
+27101892323,2cf6515b,experiment: introduce intentional test failure,CI Sequential,failure,43.0,build-artifact,0.0,104,1,0,0.161,2026-06-07T19:03:22Z
+27101848035,ccdf92a7,experiment: increase slow test sleep to 10s,CI Sequential,success,87.0,lint,22.0,104,0,0,20.13,2026-06-07T19:01:38Z
+27101848035,ccdf92a7,experiment: increase slow test sleep to 10s,CI Sequential,success,87.0,test,43.0,104,0,0,20.13,2026-06-07T19:01:38Z
+27101848035,ccdf92a7,experiment: increase slow test sleep to 10s,CI Sequential,success,87.0,build-artifact,11.0,104,0,0,20.13,2026-06-07T19:01:38Z
+27101848017,ccdf92a7,experiment: increase slow test sleep to 10s,CI Parallel,success,54.0,test,38.0,104,0,0,20.163,2026-06-07T19:01:38Z
+27101848017,ccdf92a7,experiment: increase slow test sleep to 10s,CI Parallel,success,54.0,lint,20.0,104,0,0,20.163,2026-06-07T19:01:38Z
+27101848017,ccdf92a7,experiment: increase slow test sleep to 10s,CI Parallel,success,54.0,build-artifact,10.0,104,0,0,20.163,2026-06-07T19:01:38Z
+27101807787,ac957c6d,experiment: enable slow tests with 5s sleep,CI Parallel,success,46.0,test,30.0,104,0,0,10.156,2026-06-07T19:00:08Z
+27101807787,ac957c6d,experiment: enable slow tests with 5s sleep,CI Parallel,success,46.0,lint,19.0,104,0,0,10.156,2026-06-07T19:00:08Z
+27101807787,ac957c6d,experiment: enable slow tests with 5s sleep,CI Parallel,success,46.0,build-artifact,9.0,104,0,0,10.156,2026-06-07T19:00:08Z
+27101807779,ac957c6d,experiment: enable slow tests with 5s sleep,CI Sequential,success,64.0,lint,17.0,104,0,0,10.157,2026-06-07T19:00:08Z
+27101807779,ac957c6d,experiment: enable slow tests with 5s sleep,CI Sequential,success,64.0,test,31.0,104,0,0,10.157,2026-06-07T19:00:08Z
+27101807779,ac957c6d,experiment: enable slow tests with 5s sleep,CI Sequential,success,64.0,build-artifact,8.0,104,0,0,10.157,2026-06-07T19:00:08Z
+27101771617,ad5c4513,chore: baseline run 3 - stability check,CI Sequential,success,63.0,lint,24.0,104,0,0,0.151,2026-06-07T18:58:37Z
+27101771617,ad5c4513,chore: baseline run 3 - stability check,CI Sequential,success,63.0,test,18.0,104,0,0,0.151,2026-06-07T18:58:37Z
+27101771617,ad5c4513,chore: baseline run 3 - stability check,CI Sequential,success,63.0,build-artifact,11.0,104,0,0,0.151,2026-06-07T18:58:37Z
+27101771606,ad5c4513,chore: baseline run 3 - stability check,CI Parallel,success,43.0,test,23.0,104,0,0,0.175,2026-06-07T18:58:37Z
+27101771606,ad5c4513,chore: baseline run 3 - stability check,CI Parallel,success,43.0,lint,19.0,104,0,0,0.175,2026-06-07T18:58:37Z
+27101771606,ad5c4513,chore: baseline run 3 - stability check,CI Parallel,success,43.0,build-artifact,12.0,104,0,0,0.175,2026-06-07T18:58:37Z
+27101721797,c3fe74eb,chore: baseline run 2 - stability check,CI Parallel,success,44.0,lint,18.0,104,0,0,0.191,2026-06-07T18:56:25Z
+27101721797,c3fe74eb,chore: baseline run 2 - stability check,CI Parallel,success,44.0,test,22.0,104,0,0,0.191,2026-06-07T18:56:25Z
+27101721797,c3fe74eb,chore: baseline run 2 - stability check,CI Parallel,success,44.0,build-artifact,14.0,104,0,0,0.191,2026-06-07T18:56:25Z
+27101721791,c3fe74eb,chore: baseline run 2 - stability check,CI Sequential,success,69.0,lint,20.0,104,0,0,0.174,2026-06-07T18:56:25Z
+27101721791,c3fe74eb,chore: baseline run 2 - stability check,CI Sequential,success,69.0,test,25.0,104,0,0,0.174,2026-06-07T18:56:25Z
+27101721791,c3fe74eb,chore: baseline run 2 - stability check,CI Sequential,success,69.0,build-artifact,14.0,104,0,0,0.174,2026-06-07T18:56:25Z
+27101687780,011e972b,feat: initial project setup - baseline experiment,CI Sequential,success,69.0,lint,23.0,104,0,0,0.147,2026-06-07T18:55:00Z
+27101687780,011e972b,feat: initial project setup - baseline experiment,CI Sequential,success,69.0,test,21.0,104,0,0,0.147,2026-06-07T18:55:00Z
+27101687780,011e972b,feat: initial project setup - baseline experiment,CI Sequential,success,69.0,build-artifact,14.0,104,0,0,0.147,2026-06-07T18:55:00Z
+27101687778,011e972b,feat: initial project setup - baseline experiment,CI Parallel,success,43.0,test,24.0,104,0,0,0.173,2026-06-07T18:55:00Z
+27101687778,011e972b,feat: initial project setup - baseline experiment,CI Parallel,success,43.0,lint,21.0,104,0,0,0.173,2026-06-07T18:55:00Z
+27101687778,011e972b,feat: initial project setup - baseline experiment,CI Parallel,success,43.0,build-artifact,11.0,104,0,0,0.173,2026-06-07T18:55:00Z
