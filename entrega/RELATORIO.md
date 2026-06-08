@@ -140,7 +140,7 @@ As **12 execuções experimentais** propriamente ditas correspondem a commits cu
 <br/>
 <div align="center">
   <sub>Figura 1 - Visão geral das execuções no GitHub Actions (CI Sequential — 17 runs totais) </sub> <br>
-  <img src="../prints/actions-lista-runs.png" width="100%" /> <br>
+  <img src="prints/actions-lista-runs.png" width="100%" /> <br>
   <sup>Fonte: GitHub Actions — RodrigoLeee/ci-cd-performance-lab (2026)</sup> <br>
 </div>
 <br/>
@@ -327,7 +327,7 @@ O paralelismo reduziu o tempo total em **16 segundos**, uma redução de 27% —
 <br/>
 <div align="center">
   <sub>Figura 6 - Run 12: jobs lint e test executando em paralelo</sub> <br>
-  <img src="../prints/run-12-parallel.png" width="100%" /> <br>
+  <img src="prints/run-12-parallel.png" width="100%" /> <br>
   <sup>Fonte: GitHub Actions — Run 27102077969 (2026)</sup> <br>
 </div>
 <br/>
@@ -345,7 +345,7 @@ A falha da run 6 foi causada pela ativação da flag `ENABLE_FAILING_TEST=True` 
 <br/>
 <div align="center">
   <sub>Figura 7 - Run 6: job test com falha e build-artifact como skipped</sub> <br>
-  <img src="../prints/run-6-failure.png" width="100%" /> <br>
+  <img src="prints/run-6-failure.png" width="100%" /> <br>
   <sup>Fonte: GitHub Actions — Run 27101892323 (2026)</sup> <br>
 </div>
 <br/>
